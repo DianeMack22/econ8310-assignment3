@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyManaJt3mM1WVSOW05q0l5g",
+      "authorship_tag": "ABX9TyP4WHTYRMu3TinrcO//+D1P",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -275,11 +275,7 @@
         "    epoch = checkpoint['epoch']\n",
         "    loss = checkpoint['loss']\n",
         "    model.eval()\n",
-        "    return model, optimizer, epoch, loss\n",
-        "\n",
-        "\n",
-        "if __name__ == \"__main__\":\n",
-        "    run_training()"
+        "    return model, optimizer, epoch, loss"
       ]
     }
   ]
